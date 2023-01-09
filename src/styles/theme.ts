@@ -28,7 +28,7 @@ const fontWeight = {
   bold: '600'
 };
 
-export const theme = {
+const theme = {
   color: {
     colorDark: palette.dark,
     colorPrimary: palette.primary,
@@ -76,3 +76,5 @@ export const theme = {
     borderRadius_large: '100px'
   }
 };
+
+export default theme;
