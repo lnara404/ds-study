@@ -10,11 +10,12 @@ export interface IButtonProps {
   size?: ButtonSize;
   disabled?: boolean;
   children?: React.ReactNode;
+  className?: string;
 }
 
-export const Button = ({ type = 'primary', size = 'medium', disabled, children }: IButtonProps) => {
+export const Button = ({ type = 'primary', size = 'medium', disabled, children, className }: IButtonProps) => {
   return (
-    <StyledButton colorType={type} size={size} disabled={disabled}>
+    <StyledButton colorType={type} size={size} disabled={disabled} className={className}>
       {children}
     </StyledButton>
   );
