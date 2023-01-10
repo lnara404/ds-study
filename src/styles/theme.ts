@@ -25,7 +25,7 @@ const fontSize = {
 const fontWeight = {
   light: '400',
   regular: '500',
-  bold: '600'
+  bold: '700'
 };
 
 const theme = {
