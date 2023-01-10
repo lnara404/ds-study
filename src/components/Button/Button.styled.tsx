@@ -6,6 +6,7 @@ const StyledButtonBasic = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-weight: ${({ theme }) => theme.fontWeight.fontWeight_bold};
   cursor: pointer;
   background: transparent;
   border: 0;
@@ -39,19 +40,23 @@ const StyledButtonColor = styled(StyledButtonBasic)<{ colorType: ButtonColorType
 const sizeTypeCss = {
   xSmall: {
     height: '32px',
-    padding: '4px 8px'
+    padding: '4px 8px',
+    fontSize: theme.fontSize.fontSize_small
   },
   small: {
     height: '40px',
-    padding: '8px'
+    padding: '8px',
+    fontSize: theme.fontSize.fontSize_base
   },
   medium: {
     height: '48px',
-    padding: '12px 8px'
+    padding: '12px 8px',
+    fontSize: theme.fontSize.fontSize_base
   },
   large: {
     height: '55px',
-    padding: '14px 8px'
+    padding: '14px 8px',
+    fontSize: theme.fontSize.fontSize_medium
   }
 };
 
