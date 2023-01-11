@@ -1,8 +1,11 @@
 import { Global, css } from '@emotion/react';
 
 export const ResetCss = css`
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
   * {
     box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
   }
 
   html,
