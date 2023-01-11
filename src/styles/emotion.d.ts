@@ -26,6 +26,7 @@ declare module '@emotion/react' {
       fontSize_base: string;
       fontSize_medium: string;
       fontSize_large: string;
+      fontSize_xLarge: string;
     };
 
     fontWeight: {

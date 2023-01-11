@@ -19,7 +19,8 @@ const fontSize = {
   small: '14px',
   base: '16px',
   medium: '18px',
-  large: '24px'
+  large: '24px',
+  xLarge: '32px'
 };
 
 const fontWeight = {
@@ -50,7 +51,8 @@ const theme = {
     fontSize_small: fontSize.small,
     fontSize_base: fontSize.base,
     fontSize_medium: fontSize.medium,
-    fontSize_large: fontSize.large
+    fontSize_large: fontSize.large,
+    fontSize_xLarge: fontSize.xLarge
   },
 
   fontWeight: {
